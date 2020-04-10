@@ -1,0 +1,1 @@
+Just a Verilog workspace to learn about FPGA programming and try random ideas.
