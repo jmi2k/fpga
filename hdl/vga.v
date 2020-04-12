@@ -39,7 +39,7 @@ module vga #(
 		\hsync = !(x >= Width + Hfp & x < FullX - Hbp),
 		\vsync = !(y >= Height + Vfp & y < FullY - Vbp);
 
-	always @(posedge clk, negedge reset) begin
+	always @(posedge clk) begin
 		if (!reset) begin
 			x <= 0;
 			y <= 0;
